@@ -4,33 +4,29 @@
  */
 package RMI;
 
+import java.rmi.Remote;
+import java.rmi.RemoteException;
+import java.rmi.registry.LocateRegistry;
+import java.rmi.registry.Registry;
+import java.util.LinkedHashMap;
+
 /**
  *
  * @author dinhh
  */
-
-import java.rmi.registry.LocateRegistry;
-import java.rmi.registry.Registry;
-import java.util.Arrays;
-import java.rmi.Remote;
-import java.rmi.RemoteException;
-import java.rmi.registry.LocateRegistry;
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-
 
 interface CharacterService extends Remote {
     public String requestCharacter(String studentCode, String qCode) throws RemoteException;
     public void submitCharacter(String studentCode, String qCode, String strSubmit) throws RemoteException;
 }
 
-public class RMI_Character_7dOplAl2 {
+
+public class RMI_Character_ZwVnRj6P {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String args[]) {
-        // TODO code application logic here
         try
         {
             // Kết nối đến registry server tại localhost (hoặc IP của server)
@@ -40,50 +36,41 @@ public class RMI_Character_7dOplAl2 {
             
             // Lấy đối tượng từ xa
             CharacterService service = (CharacterService) registry.lookup("RMICharacterService");
-            
             // Thông tin sinh viên và mã câu hỏi
             String studentCode = "B22DCDT147";
-            String qCode = "7dOplAl2";
+            String qCode = "ZwVnRj6P";
             
             // (a) Gọi requestData để nhận dữ liệu nhị phân
             String data = service.requestCharacter(studentCode, qCode);
-            System.out.println( data );
-            HashMap<String, Integer> map = new LinkedHashMap<String, Integer>();
-            
-            for( int i=0;i<data.length(); i++ )
+            System.out.println(data);
+            LinkedHashMap<String, Integer> map = new LinkedHashMap<String, Integer>();
+            for (int i = 0; i<data.length(); i++)
             {
                 String temp = "" + data.charAt(i);
-                if ( ! map.containsKey(temp))
+                if (map.containsKey(temp))
+                {
+                    map.put(temp, map.get(temp) + 1);
+                   
+                }
+                else
                 {
                     map.put(temp, 1);
                 }
-                else
-                {
-                    map.put(temp, map.get(temp) +1 );
-                }
             }
-            String result = "{";
-            boolean first = true;
+            
+            String result = "";
             for(String i : map.keySet())
             {
-                if(!first)
-                {
-                    result += ", ";
-                }
-                else
-                {
-                    first = false;
-                }
-                result += "\"" + i + "\": " + map.get(i).toString();
+                result += i + map.get(i).toString();
             }
-            result += "}";
-            System.out.println(result);
             service.submitCharacter(studentCode, qCode, result);
+            System.out.println(result);
+            
             
         }
-        catch(Exception e)
+        catch(Exception ex)
         {
-            e.printStackTrace();
+            ex.printStackTrace();
         }
     }
 }

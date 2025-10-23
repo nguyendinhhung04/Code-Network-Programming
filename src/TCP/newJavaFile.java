@@ -2,12 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Other/File.java to edit this template
  */
+package TCP;
 
 /**
  *
  * @author dinhh
  */
-public class ByteStream_TCP_1aoZQquc {
+public class newJavaFile {
 
     /**
      * @param args the command line arguments

@@ -1,6 +1,5 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Other/File.java to edit this template
+ shippingType
  */
 package RMI;
 
@@ -21,7 +20,7 @@ interface ObjectService extends Remote {
     public void submitObject(String studentCode, String qCode, Serializable object) throws RemoteException;
 }
 
-public class RMI_Object_8TCFq6QZ {
+public class New_RMI_Object_8TCFq6QZ {
 
     /**
      * @param args the command line arguments

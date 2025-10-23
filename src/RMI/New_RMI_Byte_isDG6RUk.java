@@ -1,6 +1,8 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Other/File.java to edit this template
+Thực hiện mã hóa Caesar
+ Ví dụ: Nếu dữ liệu nhị phân nhận được là [72, 101, 108, 108, 111] (tương ứng với chuỗi "Hello"), 
+chương trình sẽ thực hiện mã hóa Caesar với độ dịch là 5. Kết quả mã hóa là mảng [77, 108, 113, 113, 116],
+tương ứng với chuỗi "Mlqqt".
  */
 package RMI;
 
@@ -15,7 +17,7 @@ interface ByteService extends java.rmi.Remote {
 }
 
 // ===== Chương trình Client =====
-public class RMI_Byte_isDG6RUk {
+public class New_RMI_Byte_isDG6RUk {
 
     public static void main(String[] args) {
         try {
