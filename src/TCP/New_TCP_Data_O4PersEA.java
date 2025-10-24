@@ -6,7 +6,7 @@ package TCP;
 
 import java.io.*;
 import java.net.*;
-public class New_RMI_Data_O4PersEA {
+public class New_TCP_Data_O4PersEA {
 
     public static void main(String[] args) {
         String serverHost = "203.162.10.109"; // hoặc IP server
