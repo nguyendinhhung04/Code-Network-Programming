@@ -3,43 +3,18 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/TCP/TCP_ByteStream_pP4Kcd32.java</file>
-            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/TCP/TCP_Byte_1aoZQquc.java</file>
-            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/TCP/TCP_DataStream_dshUJGA7.java</file>
             <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/RMI/New_RMI_Character_7dOplAl2.java</file>
-            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/UDP/DataType_UDP_nWTqUnGc.java</file>
-            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/UDP/DataType_UDP_ZWvHamrW.java</file>
-            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/UDP/DataType_UDP_OP85i7lg.java</file>
-            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/UDP/Product.java</file>
-            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/UDP/Object_UDP_4USpka5b.java</file>
-            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/UDP/Book.java</file>
-            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/UDP/Object_UDP_knoOMOiY.java</file>
-            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/UDP/String_UDP.java</file>
-            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/UDP/String_UDP_SHQCe2TV.java</file>
-            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/RMI/New_RMI_Byte_isDG6RUk.java</file>
             <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/RMI/RMI_Data_hbOspwEl.java</file>
-            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/RMI/New_RMI_Object_8TCFq6QZ.java</file>
-            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/RMI/Order.java</file>
-            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/WS/DataService_WS_PIBif50J.java</file>
-            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/build.xml</file>
-            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/WS/DataService.java</file>
-            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/RMI/RMI_Byte_k57XPemV.java</file>
-            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/RMI/RMI_Data_L1CiMKMM.java</file>
+            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/RMI/New_RMI_Byte_isDG6RUk.java</file>
             <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/RMI/test.java</file>
+            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/RMI/RMI_Byte_k57XPemV.java</file>
             <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/RMI/RMI_Character_ZwVnRj6P.java</file>
-            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/TCP/newJavaFile.java</file>
-            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/TCP/New_TCP_Character_QZkzEjhP.java</file>
-            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/TCP/New_TCP_Data_O4PersEA.java</file>
-            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/TCP/New_TCP_Object_WOTt5fbM.java</file>
-            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/TCP/Customer.java</file>
-            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/UDP/New_UDP_String_byb4zeCK.java</file>
-            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/UDP/New_UDP_Data_fwBu65Ky.java</file>
-            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/UDP/New_UDP_Object_9Z66lNMo.java</file>
-            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/UDP/Employee.java</file>
-            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/prepare/TCP_Data.java</file>
+            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/RMI/RMI_Data_L1CiMKMM.java</file>
             <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/prepare/TCP_Character.java</file>
-            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/prepare/TCP_Object.java</file>
-            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/prepare/UDP_Data.java</file>
+            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/prepare/TCP_Data.java</file>
+            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/TCP/TCP_ByteStream_pP4Kcd32.java</file>
+            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/TCP/TCP_ByteStream.java</file>
+            <file>file:/C:/Users/dinhh/OneDrive/Desktop/Learing/PTIT/Network%20Programming/Code/Code/src/TCP/New_TCP_Object_WOTt5fbM.java</file>
         </group>
     </open-files>
 </project-private>
