@@ -10,56 +10,30 @@ package WS;
  */
 import java.net.URL;
 import java.util.*;
-import javax.xml.ws.Service;
-import javax.xml.namespace.QName;
+import javax.sound.sampled.Port;
+import vn.medianews.*;
 
 public class DataService_WS_PIBif50J {
 
     public static void main(String[] args) {
         try {
-            // ===== (a) Khởi tạo Web Service Client =====
-            String wsURL = "http://203.162.10.109:8080/JNPWS/DataService?wsdl";
-            URL url = new URL(wsURL);
-
-            // namespaceURI và serviceName dựa theo WSDL
-            QName qname = new QName("http://RMI/", "DataService"); 
-            Service service = Service.create(url, qname);
-
-            // Lấy đối tượng proxy (port)
-            DataService dataService = service.getPort(DataService.class);
-
-            // Thông tin bài làm
+            DataService_Service service = new DataService_Service();
+            DataService p = service.getDataServicePort();
+            
             String studentCode = "B22DCDT147";
-            String qCode = "PIBif50J";
-
-            // ===== (a) Gọi phương thức getData =====
-            List<Integer> numbers = dataService.getData(studentCode, qCode);
-            System.out.println("Dữ liệu số nguyên nhận được: " + numbers);
-
-            // ===== (b) Chuyển sang chuỗi nhị phân =====
-            List<String> binaryStrings = new ArrayList<>();
-            for (Integer num : numbers) {
-                String binary = Integer.toBinaryString(num);
-                binaryStrings.add(binary);
+            String qCode = "wvhk9BFf";
+            
+            List<Integer> list = p.getData(studentCode, qCode);
+            System.out.println(list);
+            List<String> data = new ArrayList<>();
+            for(Integer i:list)
+            {
+                String binary = Integer.toBinaryString(i);
+                data.add(binary);
             }
-
-            System.out.println("Chuỗi nhị phân sau chuyển đổi: " + binaryStrings);
-
-            // ===== (c) Gửi lại server =====
-            dataService.submitDataStringArray(studentCode, qCode, binaryStrings);
-            System.out.println("Đã gửi dữ liệu nhị phân trở lại server.");
-
-            // ===== (d) Kết thúc =====
-            System.out.println("Client hoàn thành.");
-
+            p.submitDataStringArray(studentCode, qCode, data);
         } catch (Exception e) {
             e.printStackTrace();
         }
-    }
-
-    // ===== Interface khớp với WSDL =====
-    public interface DataService {
-        List<Integer> getData(String studentCode, String qCode);
-        void submitDataStringArray(String studentCode, String qCode, List<String> data);
     }
 }
