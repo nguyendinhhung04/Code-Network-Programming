@@ -13,7 +13,7 @@ import java.net.*;
 import java.nio.ByteBuffer;
 import java.nio.charset.StandardCharsets;
 
-public class New_UDP_Object_9Z66lNMo {
+public class UDP_Object_Employee_chuanhoaten {
     public static void main(String[] args) {
         String studentCode = "B22DCDT147"; // 🔹 Thay mã sinh viên
         String qCode = "9Z66lNMo";

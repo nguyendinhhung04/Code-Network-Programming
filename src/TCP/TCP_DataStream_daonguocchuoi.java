@@ -18,7 +18,7 @@ import java.util.List;
  *
  * @author dinhh
  */
-public class TCP_DataStream_dshUJGA7 {
+public class TCP_DataStream_daonguocchuoi {
 
     /**
      * @param args the command line arguments

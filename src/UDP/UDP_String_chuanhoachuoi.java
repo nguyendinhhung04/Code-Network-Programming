@@ -10,7 +10,7 @@ import java.net.InetAddress;
 
     
 
-public class String_UDP_SHQCe2TV {
+public class UDP_String_chuanhoachuoi {
 
     // Hàm chuẩn hóa chuỗi: viết hoa chữ cái đầu, các ký tự còn lại viết thường
     public static String normalize(String input) {

@@ -13,7 +13,7 @@ import java.net.InetAddress;
  *
  * @author dinhh
  */
-public class DataType_UDP_OP85i7lg {
+public class DataType_UDP_bigInt {
 
     /**
      * @param args the command line arguments

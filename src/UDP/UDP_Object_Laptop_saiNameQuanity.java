@@ -16,7 +16,7 @@ import java.net.InetAddress;
  *
  * @author dinhh
  */
-public class Object_UDP_knoOMOiY {
+public class UDP_Object_Laptop_saiNameQuanity {
 
     /**
      * @param args the command line arguments
@@ -24,7 +24,7 @@ public class Object_UDP_knoOMOiY {
     public static void main(String args[]) {
         
         String studentCode = "B22DCDT147"; // thay bằng mã của bạn
-        String qCode = "knoOMOiY";         // thay bằng mã câu hỏi
+        String qCode = "gSGu4asI";         // thay bằng mã câu hỏi
         String message = ";" + studentCode + ";" + qCode;
 
         String serverIp = "203.162.10.109"; // đổi thành IP của server thật

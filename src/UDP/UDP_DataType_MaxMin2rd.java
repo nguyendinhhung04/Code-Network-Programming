@@ -12,7 +12,7 @@ import java.net.InetAddress;
  *
  * @author dinhh
  */
-public class DataType_UDP_ZWvHamrW {
+public class UDP_DataType_MaxMin2rd {
 
     /**
      * @param args the command line arguments

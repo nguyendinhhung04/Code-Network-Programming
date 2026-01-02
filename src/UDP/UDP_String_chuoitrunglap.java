@@ -9,7 +9,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.HashSet;
 import java.util.Set;
 
-public class New_UDP_String_byb4zeCK {
+public class UDP_String_chuoitrunglap {
     public static void main(String[] args) {
         String serverHost = "203.162.10.109"; // hoặc IP server
         int serverPort = 2208;

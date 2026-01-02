@@ -9,7 +9,7 @@ import java.net.*;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
 
-public class New_UDP_Data_fwBu65Ky {
+public class UDP_DataType_cuasotruot {
 
     public static void main(String[] args) {
         String studentCode = "B22DCDT147"; // 👉 đổi theo MSSV của bạn
